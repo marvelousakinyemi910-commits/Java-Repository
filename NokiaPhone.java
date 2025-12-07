@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class NokiaPhone { // class open
+public class NokiaPhone { 
 
-public static void main(String... args){ // method open 
+public static void main(String... args){ 
 
 Scanner input = new Scanner(System.in);
 
@@ -27,8 +27,8 @@ System.out.println(menu);
 System.out.println("Enter option");
 int option = input.nextInt();
 
-   switch(option ) { // switch 1 opened
-    case 1-> { //case 1 opened
+   switch(option ) { 
+    case 1-> { 
   String menu1 = """
    Phonebook
  
@@ -47,14 +47,14 @@ int option = input.nextInt();
 System.out.println(menu1);
 System.out.println("Enter option");
  int option1 = input.nextInt();
-    switch(option1){ // switch 2 opened for phone book
+    switch(option1){ 
     case 2 -> {System.out.println("Service Nos");}
     case 3 -> {System.out.println("Add Names");}
     case 4 -> {System.out.println("Erase");}
     case 5 -> {System.out.println("Edit");}
     case 6 -> {System.out.println("Assign tone");}
     case 7 -> {System.out.println("Send b'card");}
-    case 8 -> { // switch 3 for options opened
+    case 8 -> { // 
     String menu12 = """
 
        Options
@@ -67,26 +67,26 @@ System.out.println("Enter option");
 System.out.println(menu12);
 System.out.println("Enter option");
 int option12 = input.nextInt();
-switch(option12){ // switch 4 fo options
+switch(option12){ 
     case 1 -> {System.out.println("Type of view");}
     case 2 -> {System.out.println("Memory status");}
 
-} // switch 3 closed for options
-} // switch 4 closed
+} 
+} 
     case 9 -> {System.out.println("Speed dials");}
     case 10 -> {System.out.println("Voice tags");}
     default -> {System.out.println("Enter valid number");}
 
     
-} // switch 2 closed for phonebook
-} // case 1 closed
+} 
+} 
 
 
  
 
 
 
-case 2 ->{ // case 2 open 1
+case 2 ->{ 
 
   String menu2 =""" 
 
@@ -108,7 +108,7 @@ Messages
 System.out.println(menu2);
 System.out.println("Enter option");
 int option21 = input.nextInt();
-switch (option21){ // switch 1 for case 2 open 2
+switch (option21){  
 
     case 1 -> {System.out.println("Write Message");}
     case 2 -> {System.out.println("Inbox");}
@@ -116,7 +116,7 @@ switch (option21){ // switch 1 for case 2 open 2
     case 4 -> {System.out.println("Picture Messages");}
     case 5 -> {System.out.println("Template");}
     case 6 -> {System.out.println("Smileys");}
-    case 7 -> {  // case 7 open 3
+    case 7 -> {  
 
         String menu21 ="""
     
@@ -128,8 +128,8 @@ switch (option21){ // switch 1 for case 2 open 2
 System.out.println(menu21);
 System.out.println("Enter option: ");
  int option22 = input.nextInt();
-switch (option22){ // switch for case 7.1 open 4
-    case 1 ->{ // case for 7.1 open
+switch (option22){ 
+    case 1 ->{ 
    String menu22 ="""
         Message settings
         1. Message centre number
@@ -140,19 +140,19 @@ switch (option22){ // switch for case 7.1 open 4
 System.out.println(menu22);
 System.out.println("Enter option: ");
  int option23 = input.nextInt();
-switch (option23){ //6
+switch (option23){ 
 
     case 1 -> {System.out.println("Message centre number");}
     case 2 -> {System.out.println("Messages sent as");}
     case 3 -> {System.out.println("Message validity");}
     default -> {System.out.println("Enter a valid option");}
 
- }// switch for 7.1 close
-} // case for 7.1 close
+ }
+} 
   
 
    
-    case 2 ->{ // 7.2 open
+    case 2 ->{ 
       String menu23 ="""
         Message settings
     1. Delivery reports
@@ -163,16 +163,16 @@ switch (option23){ //6
 System.out.println(menu23);
 System.out.println("Enter option: ");
  int option24 = input.nextInt();
-switch (option24){ // 7.2switch open
+switch (option24){ 
 
     case 1 -> {System.out.println("Delivery reports");}
     case 2 -> {System.out.println("Reply via same centre");}
     case 3 -> {System.out.println("Character support");}
     default -> {System.out.println("Enter a valid option");}
 
-    } // 7.2 swich close 4
+    } 
 
-    } // 7.2 closed 3
+    } 
 }
 }
    
@@ -182,15 +182,15 @@ switch (option24){ // 7.2switch open
   case 10 -> {System.out.println("Service command editor");}
   default -> {System.out.println("Enter a valid option");}
 
- } //case 2 closed 2
-}  //1
+ }
+}  
 
 
  
  
 case 3 -> {System.out.println("Info service");}
 
- case 4 -> { // case 4 opem
+ case 4 -> { 
 
  String menu4 ="""
    Call register
@@ -206,13 +206,13 @@ case 3 -> {System.out.println("Info service");}
 System.out.println(menu4);
 System.out.println("Enter option: ");
  int option41 = input.nextInt();
-switch (option41){ // switch 4.0 open
+switch (option41){ 
 
     case 1 -> {System.out.println("Missed calls");}
     case 2 -> {System.out.println("Received calls");}
     case 3 -> {System.out.println("Dialled numbers");}
     case 4 -> {System.out.println("Erase recent call lists");}
-    case 5 -> { // case 4.5 open
+    case 5 -> { 
             
        String menu41 =""" 
 
@@ -226,7 +226,7 @@ switch (option41){ // switch 4.0 open
    System.out.println(menu41);
    System.out.println("Enter option: ");
  int option42 = input.nextInt();
-switch (option42){ // switch 4.5 open
+switch (option42){ 
 
     case 1 -> {System.out.println("Last call duration");}
     case 2 -> {System.out.println("All calls’ duration");}
@@ -236,10 +236,10 @@ switch (option42){ // switch 4.5 open
 
        
 
-    } // 4.5 close
-     } // switch 4.5 close
+    } 
+     } 
 
-    case 6 ->{ // 4.6 open
+    case 6 ->{ 
     String menu42 =""" 
     Show call costs
     1. Last call cost
@@ -250,7 +250,7 @@ switch (option42){ // switch 4.5 open
     System.out.println(menu42);
    System.out.println("Enter option: ");
  int option43 = input.nextInt();
-switch (option43){ // switch 4.6 open
+switch (option43){ 
 
     case 1 -> {System.out.println("Last call costs");}
     case 2 -> {System.out.println("All calls’ costs");}
@@ -258,12 +258,12 @@ switch (option43){ // switch 4.6 open
     default -> {System.out.println("Enter a valid option");}
  
 
-        } // 4.6 close
+        } 
 
 
-    } // switch 4.6 close
+    } 
 
-    case 7 ->{ // 4.7 open
+    case 7 ->{ 
     String menu43 ="""
     Call cost settings
     1.Call cost limit
@@ -272,26 +272,25 @@ switch (option43){ // switch 4.6 open
  System.out.println(menu43);
   System.out.println("Enter option: ");
  int option44 = input.nextInt();
-switch (option44){ // switch 4.7 open
+switch (option44){ 
 
     case 1 -> {System.out.println("Call cost limit");}
     case 2 -> {System.out.println("Show costs in");}
     default -> {System.out.println("Enter a valid option");}
  
 
-          } // 4.7 close
-            } // switch 4.7 close
-
+          } 
+            } 
     case 8 -> {System.out.println("Prepaid credit");}
 
-      } // switch 4.0 close
+      } 
 
      
-       } // case 4 close
+       } 
 
 
     
- case 5 ->{ // case 5 open
+ case 5 ->{ 
     String menu5 ="""
 
         Tones
@@ -309,7 +308,7 @@ switch (option44){ // switch 4.7 open
 System.out.println(menu5);
   System.out.println("Enter option: ");
  int option51= input.nextInt();
-switch (option51){ // switch 5 open
+switch (option51){ 
 
     case 1 -> {System.out.println("Ringing tone");}
     case 2 -> {System.out.println("Ringing volume");}
@@ -323,10 +322,10 @@ switch (option51){ // switch 5 open
 
 
 
-        } // switch 5 close
+        } 
 
-    } // case 5 close
-    case 6 ->{ // case 6 open
+    } 
+    case 6 ->{ 
  String menu6 ="""
         Settings
     1. Call settings
@@ -338,8 +337,8 @@ switch (option51){ // switch 5 open
   System.out.println(menu6);
   System.out.print("Enter option: ");
    int option61 = input.nextInt();
-     switch (option61){ // main switch 6.0 open     
-    case 1 ->{ // case 6.1 open
+     switch (option61){     
+    case 1 ->{ 
     String menu61 = """
         Call settings
     1. Automatic redial
@@ -352,7 +351,7 @@ switch (option51){ // switch 5 open
 System.out.println(menu61);
   System.out.print("Enter option: ");
    int option62 = input.nextInt();
-     switch (option62){ // switch 6.1 open 
+     switch (option62){  
 
     
     case 1 -> {System.out.println("Automatic redial");}
@@ -364,10 +363,10 @@ System.out.println(menu61);
     default -> {System.out.println("Enter a valid option");}
  
 
-     } // swith 6.1 close
-} // case 6.1 close
+     } 
+} 
 
-    case 2 ->{ // case 2 open
+    case 2 ->{ 
    String menu62= """
         Phone settings
     1. Language
@@ -381,7 +380,7 @@ System.out.println(menu61);
   System.out.println(menu62);
   System.out.print("Enter option: ");
    int option63 = input.nextInt();
-     switch (option63){  // 6.2 switch opened
+     switch (option63){  
     case 1 -> {System.out.println("Language");}
     case 2 -> {System.out.println("Cell info display");}
     case 3 -> {System.out.println("Welcome note");}
@@ -392,10 +391,10 @@ System.out.println(menu61);
  
 
 
-     } // switch 6.2 closed      
+     }      
 
-   } // case 2 closed
-  case 3 ->{ // 6.3 open
+   } 
+  case 3 ->{ 
  String menu63= """
 
  Security settings
@@ -410,7 +409,7 @@ System.out.println(menu61);
 System.out.println(menu63);
  System.out.print("Enter option: ");
    int option64 = input.nextInt();
- switch (option64){  // 6.3 switch open
+ switch (option64){  
     case 1 -> {System.out.println("PIN code request");}
     case 2 -> {System.out.println("Call barring service");}
     case 3 -> {System.out.println("Fixed dialling");}
@@ -420,15 +419,15 @@ System.out.println(menu63);
     default -> {System.out.println("Enter a valid option");}
 
 
-           } // 6.3 switch close
-         } // 6.3 close
+           } 
+         } 
 
     case 4 ->{System.out.println("Restore factory settings");}
     default -> {System.out.println("Enter a valid option");}
 
         
 
-        }//6 end
+        }
 }
 
     case 7 -> {System.out.println("Call divert");}
@@ -436,7 +435,7 @@ System.out.println(menu63);
     case 9 -> {System.out.println("Calculator");}
     case 10 -> {System.out.println("Reminders");}
 
-    case 11 ->{ // case 11 open
+    case 11 ->{ 
     String menu11= """
         Clock
     1. Alarm clock
@@ -450,7 +449,7 @@ System.out.println(menu63);
 System.out.println(menu11);
  System.out.print("Enter option: ");
    int option110 = input.nextInt();
-switch (option110){  // switvh 11 open
+switch (option110){  
     case 1 -> {System.out.println("Alarm clock");}
     case 2 -> {System.out.println("Clock settings");}
     case 3 -> {System.out.println("Date setting");}
@@ -458,9 +457,8 @@ switch (option110){  // switvh 11 open
     case 5 -> {System.out.println("Countdown timer ");}
     case 6 -> {System.out.println("Auto update of date and time");}
     default -> {System.out.println("Enter a valid option");}
-     } // switch 11 close
-      }// case11 close
-
+     } 
+      }
 
     case 12 -> {System.out.println("Profiles");}
     case 13 -> {System.out.println("SIM services");}
@@ -469,12 +467,12 @@ switch (option110){  // switvh 11 open
 
  
 
-} // switch 1 closed
+} 
 
 
 
-}// class close
+}
 
-} // method close
+} 
 
 

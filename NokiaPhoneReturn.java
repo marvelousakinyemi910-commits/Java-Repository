@@ -129,6 +129,7 @@ switch (option21){
         Message settings
         1. set 
         2. common 
+                 
        
         """;   
 System.out.println(menu21);
@@ -177,7 +178,7 @@ switch (option24){
     case 1 -> {System.out.println("Delivery reports");}
     case 2 -> {System.out.println("Reply via same centre");}
     case 3 -> {System.out.println("Character support");}
-    case 3 -> {System.out.println("Back");}
+    case 4 -> {System.out.println("Back");}
     default -> {System.out.println("Enter a valid option");}
 
     } 
@@ -213,6 +214,7 @@ case 3 -> {System.out.println("Info service");}
 6. Show call costs
 7. Call cost settings
 8. Prepaid credit 
+9. Main Menu
         """;
 System.out.println(menu4);
 System.out.println("Enter option: ");
@@ -233,6 +235,7 @@ switch (option41){
         3. Received calls’ duration
         4. Dialled calls’ duration
         5. Clear timers
+        6. Back
             """;
    System.out.println(menu41);
    System.out.println("Enter option: ");
@@ -244,6 +247,7 @@ switch (option42){
     case 3 -> {System.out.println("Received calls’ duration");}
     case 4 -> {System.out.println("Dialled calls’ duration");}
     case 5 -> {System.out.println("Clear timers");}
+    case 6 -> {System.out.println("Back");}
 
        
 
@@ -256,6 +260,7 @@ switch (option42){
     1. Last call cost
     2. All calls’ cost
     3. Clear counters
+    4. Back
         """;
 
     System.out.println(menu42);
@@ -266,6 +271,7 @@ switch (option43){
     case 1 -> {System.out.println("Last call costs");}
     case 2 -> {System.out.println("All calls’ costs");}
     case 3 -> {System.out.println("clear counters");}
+    case 4 -> {System.out.println("Back");}
     default -> {System.out.println("Enter a valid option");}
  
 
@@ -279,6 +285,7 @@ switch (option43){
     Call cost settings
     1.Call cost limit
     2.Show costs in
+    3.Back
         """;
  System.out.println(menu43);
   System.out.println("Enter option: ");
@@ -287,13 +294,14 @@ switch (option44){
 
     case 1 -> {System.out.println("Call cost limit");}
     case 2 -> {System.out.println("Show costs in");}
+    case 3 -> {System.out.println("Back");}
     default -> {System.out.println("Enter a valid option");}
  
 
           } 
             } 
     case 8 -> {System.out.println("Prepaid credit");}
-
+    case 9 -> {System.out.println("Main Menu");}
       } 
 
      
@@ -314,6 +322,7 @@ switch (option44){
     7. Warning and game tones
     8. Vibrating alert
     9. Screen saver
+    10. Main Menu
         """;
 
 System.out.println(menu5);
@@ -330,6 +339,7 @@ switch (option51){
     case 7 -> {System.out.println("Warning and game tones");}
     case 8 -> {System.out.println("Vibrating alert");}
     case 9 -> {System.out.println("Screen saver");}
+    case 10 -> {System.out.println("Main Menu");}
 
 
 
@@ -343,6 +353,7 @@ switch (option51){
     2. Phone settings
     3. Security settings
     4. Restore factory settings
+    5. Main Menu
  
             """;
   System.out.println(menu6);
@@ -358,6 +369,7 @@ switch (option51){
     4. Own number sending
     5. Phone line in use
     6. Automatic answer
+    7. Back
                     """;
 System.out.println(menu61);
   System.out.print("Enter option: ");
@@ -371,6 +383,7 @@ System.out.println(menu61);
     case 4 -> {System.out.println("Own number sending");}
     case 5 -> {System.out.println("Phone line in use");}
     case 6 -> {System.out.println("Automatic answer ");}
+    case 7 -> {System.out.println("Back");}
     default -> {System.out.println("Enter a valid option");}
  
 
@@ -386,6 +399,7 @@ System.out.println(menu61);
     4. Network selection
     5. Lights 
     6. Confirm SIM service actions
+    7. Back
                          """;
 
   System.out.println(menu62);
@@ -398,6 +412,7 @@ System.out.println(menu61);
     case 4 -> {System.out.println("Network selection");}
     case 5 -> {System.out.println("Lights ");}
     case 6 -> {System.out.println("Confirm SIM service actions");}
+    case 7 -> {System.out.println("Back");}
     default -> {System.out.println("Enter a valid option");}
  
 
@@ -415,6 +430,7 @@ System.out.println(menu61);
 4. Closed user group
 5. Phone security
 6. Change access codes
+7. Back
 
                      """;            
 System.out.println(menu63);
@@ -427,6 +443,7 @@ System.out.println(menu63);
     case 4 -> {System.out.println("Closed user group");}
     case 5 -> {System.out.println("Phone security ");}
     case 6 -> {System.out.println("Change access codes");}
+    case 7 -> {System.out.println("Back");}
     default -> {System.out.println("Enter a valid option");}
 
 
@@ -434,6 +451,7 @@ System.out.println(menu63);
          } 
 
     case 4 ->{System.out.println("Restore factory settings");}
+    case 5 -> {System.out.println("Main Menu");}
     default -> {System.out.println("Enter a valid option");}
 
         
@@ -455,6 +473,7 @@ System.out.println(menu63);
     4. Stopwatch
     5. Countdown timer
     6. Auto update of date and time
+    7. Main Menu
                      """;
 
 System.out.println(menu11);
@@ -467,6 +486,7 @@ switch (option110){
     case 4 -> {System.out.println("Stopwatch");}
     case 5 -> {System.out.println("Countdown timer ");}
     case 6 -> {System.out.println("Auto update of date and time");}
+    case 7 -> {System.out.println("Main Menu");}
     default -> {System.out.println("Enter a valid option");}
      } 
       }

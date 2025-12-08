@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class NokiaPhone { 
+public class NokiaPhoneReturn { 
 
 public static void main(String... args){ 
 
@@ -23,7 +23,7 @@ String menu = """
 13. SIM services
   
           """;
-
+while (true){
 System.out.println(menu);
 System.out.println("Enter option");
 int option = input.nextInt();
@@ -43,6 +43,7 @@ int option = input.nextInt();
 8. Options
 9. Speed dials
 10. Voice tags
+11. Back
            """;
 
 System.out.println(menu1);
@@ -61,6 +62,7 @@ System.out.println("Enter option");
        Options
 1.Type of view
 2. Memory status
+3. Back
     """;
      
 
@@ -71,11 +73,13 @@ int option12 = input.nextInt();
 switch(option12){ 
     case 1 -> {System.out.println("Type of view");}
     case 2 -> {System.out.println("Memory status");}
+    case 3 -> {System.out.println("Back");}
 
 } 
 } 
     case 9 -> {System.out.println("Speed dials");}
     case 10 -> {System.out.println("Voice tags");}
+    case 11 -> {System.out.println("Back");}
     default -> {System.out.println("Enter valid number");}
 
     
@@ -102,6 +106,7 @@ Messages
  8. Info Service
  9. Voice mailbox number
  10. Service command editor
+11. Main Menu
                             """;
 
 
@@ -136,6 +141,7 @@ switch (option22){
         1. Message centre number
         2. Messages sent as
         3. Message validity
+        4. Back
 
         """;
 System.out.println(menu22);
@@ -146,6 +152,7 @@ switch (option23){
     case 1 -> {System.out.println("Message centre number");}
     case 2 -> {System.out.println("Messages sent as");}
     case 3 -> {System.out.println("Message validity");}
+    case 4 -> {System.out.println("Back");}
     default -> {System.out.println("Enter a valid option");}
 
  }
@@ -159,6 +166,7 @@ switch (option23){
     1. Delivery reports
     2. Reply via same centre
     3. Character support
+    4. Back
          
     """;
 System.out.println(menu23);
@@ -169,6 +177,7 @@ switch (option24){
     case 1 -> {System.out.println("Delivery reports");}
     case 2 -> {System.out.println("Reply via same centre");}
     case 3 -> {System.out.println("Character support");}
+    case 3 -> {System.out.println("Back");}
     default -> {System.out.println("Enter a valid option");}
 
     } 
@@ -181,6 +190,7 @@ switch (option24){
   case 8 -> {System.out.println("Info service");}
   case 9 -> {System.out.println("Voice mailbox number");}
   case 10 -> {System.out.println("Service command editor");}
+  case 11 -> {System.out.println("Main Menu");}
   default -> {System.out.println("Enter a valid option");}
 
  }
@@ -464,7 +474,7 @@ switch (option110){
     case 12 -> {System.out.println("Profiles");}
     case 13 -> {System.out.println("SIM services");}
 
-
+}
 
  
 

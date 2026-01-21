@@ -4,7 +4,9 @@ public class MortgageCalculator{
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the principal amount: ");
         int principal = input.nextInt();
+       
         System.out.println("Enter the annual Interest rate: ");
+              
         double interest = input.nextDouble();
         System.out.println("Enter the duration in years: ");
         int duration = input.nextInt();

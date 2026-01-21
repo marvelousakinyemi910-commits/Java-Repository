@@ -2,13 +2,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class TransactionLogApp{
     static Scanner input = new Scanner(System.in);
-    static double balance = 0;
+    static double balance = 0.0;
     static ArrayList<String> transactions = new ArrayList<>();
     
     public static void main(String[]args){
     
 
-    double balance = 0.0;
+   
     int choice;
     
     System.out.println("Welcome to Transaction Log App");
@@ -25,13 +25,13 @@ public class TransactionLogApp{
         showTransactions();
     }
         else if (choice == 4){
-        System.out.printf("%nFinal Balance: #%.2f%n", balance);
+        System.out.printf("%nFinal Balance: $%.2f%n", balance);
         System.out.println("Thank you for using Transaction Log App!");
         break;
     }
         else{
             System.out.println("Invalid choice");
-        
+            
 }
    
    
@@ -66,7 +66,7 @@ public class TransactionLogApp{
             }
             balance += amount;
         String record = String.format(
-        "Deposited: #%.2f| New Balance : #%.2f", amount, balance
+        "Deposited: $%.2f| New Balance : $%.2f", amount, balance
      
             );
         transactions.add(record);
@@ -95,7 +95,7 @@ public class TransactionLogApp{
     }
         balance -= amount;
         String record = String.format(
-        "Withdrew:#%.2f | New Balance: #%.2f", amount,balance
+        "Withdrew:$%.2f | New Balance: $%.2f", amount,balance
 
     );
         transactions.add(record);

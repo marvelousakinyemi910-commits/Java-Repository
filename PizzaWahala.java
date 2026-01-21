@@ -2,11 +2,15 @@
 public class PizzaWahala{
    
     public static String pizzaWahala(int people,String pizzaType){
+        
+    
 
         pizzaType = pizzaType.toLowerCase();
         
         int numberOfSlices = 0;
         int boxPrice = 0;
+
+    
 
   
     if(pizzaType.equals("sapa size")) {
@@ -31,9 +35,9 @@ public class PizzaWahala{
         }
     else{
        return "Invalid pizza type";
-            }
+           }
            
-        int boxes = (int) Math.ceil((double)people/numberOfSlices);
+        double boxes = Math.ceil((double)people/numberOfSlices);
         int totalSlices = boxes * numberOfSlices;
         int leftOver = totalSlices - people;
         int totalCost = boxes * boxPrice; 

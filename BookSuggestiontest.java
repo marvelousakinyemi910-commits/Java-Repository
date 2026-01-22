@@ -7,8 +7,8 @@ public class BookSuggestiontest{
     static Random random = new Random();
 
     public static void main(String[]args){
-    initialiseBooks(book);
-    runApp(book);
+    initialiseBooks();
+    runApp();
     System.out.println("Enter an operation: ");
     int option = input.nextInt();
     input.nextLine();
@@ -16,15 +16,15 @@ public class BookSuggestiontest{
    
 
 
-    BookSuggestion.runApp(book);
-    BookSuggestion.initialiseBooks(book);
-    BookSuggestion.bookSuggestionMenu(book);
-    BookSuggestion.getSuggestion(book);
-    BookSuggestion.addBook(book);
-    BookSuggestion.removeBook(book);
-    BookSuggestion.updateBook(book);
-    BookSuggestion.showBooks(book);
-    BookSuggestion.exitApp(book);
+    BookSuggestion.runApp();
+    BookSuggestion.initialiseBooks();
+    BookSuggestion.bookSuggestionMenu();
+    BookSuggestion.getSuggestion();
+    BookSuggestion.addBook();
+    BookSuggestion.removeBook();
+    BookSuggestion.updateBook();
+    BookSuggestion.showBooks();
+    BookSuggestion.exitApp();
     }
 
 
